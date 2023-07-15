@@ -5,6 +5,8 @@ channels:
   - conda-forge
 dependencies:
 - python>=3.9
+- jupyterlab
+- nbgitpuller
 - dask
 - matplotlib
 - earthaccess
@@ -12,5 +14,6 @@ dependencies:
 - pydap
 - pip
 - pip:
+  # Get these from pip until conda gets netCDF4 4.9.3++. jhrg 7/14/23
   - netCDF4
   - xarray

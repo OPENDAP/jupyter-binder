@@ -4,7 +4,7 @@
 
 ### Use Binder
 
-Bogus Badge...
+Start the empty environment
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OPENDAP/NASA-tutorials-bindder/main)
 
