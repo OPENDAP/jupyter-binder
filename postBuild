@@ -1,11 +1,2 @@
 # Enable nbgitpuller
 jupyter serverextension enable --py nbgitpuller --sys-prefix
-
-# labextensions
-jupyter labextension install --clean @jupyter-widgets/jupyterlab-manager \
-                                      @jupyterlab/server-proxy \
-                                      @jupyterlab/geojson-extension \
-                                      @pyviz/jupyterlab_pyviz \
-                                      jupyter-matplotlib \
-                                      jupyter-leaflet \
-                                      dask-labextension
