@@ -1,6 +1,6 @@
 # run: conda env create --file environment.yml
 
-name: nasa-tutorials
+name: jupyter-binder
 channels:
   - conda-forge
 dependencies:
