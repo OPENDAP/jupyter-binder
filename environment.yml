@@ -1,6 +1,6 @@
 # run: conda env create --file environment.yml
 
-name: nasa-local
+name: nasa-tutorials
 channels:
   - conda-forge
 dependencies:
@@ -8,7 +8,6 @@ dependencies:
 - dask
 - matplotlib
 - earthaccess
-- jupyterlab
 - cartopy
 - pydap
 - pip

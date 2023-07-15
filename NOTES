@@ -1,35 +1,4 @@
 NOTES
 
-7/7/23
-
-There are serious problems with the netcdf-c library version 4.9.1 and
-4.9.2 that have broken EDL authentication. 4.9.0 does work, but trying
-to use that with a conda env was just too hard. 
-
-I switched to the python venv system and installed packages using pip
-which, via stroke of good fortune, worked. 
-
-7/10/23
-
-I added pip-tools so that requirements.in --> requirements.txt works.
-This should streamline running the notebooks using binder.
-
-Pulled this out of the larger collection of notebooks to focus on this
-jst about NASA's data and OPeNDAP servers.
-
-7/13/23
-
-Building a conda env using conda-forge and _not_ loading netCDf4 or xarray
-worked with Binder. THere was no need to use a pre-built container nor was
-there a need to separate the environment and content parts of the tutorials
-into two repos (might be later...). I loaded netCDF4 and xarray in via pip
-in the notebooks. 
-
-Loading only xarray results in a broken `values` method/field. The scale_factor
-attribute of the SST variable, e.g., is a string and not a number. using 
-the netCDF library pulled in by xarray, the application of the scale factor 
-fails with an inscrutable error message about loops. The fix is to load netCDF
-4.9.3 or newer from pip.
-
-Here is a StackOverflow post about the error message: https://stackoverflow.com/
-questions/42013903/why-do-i-get-ufunc-multiply-did-not-contain-a-loop-with-signature-matching-ty
+7/14/23 Separate the environment (this repo) from the content (see
+github.com/OPENDAP/NASA-tutorials).
