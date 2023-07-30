@@ -1,3 +1,4 @@
+
 # A Binder Environment for the OPeNDAP Jupyter notebooks
 
 ## Start the base environment
@@ -5,15 +6,19 @@
 To use this environment _as is_: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OPENDAP/jupyter-binder/HEAD)
 
-## Environment with content
+## Using the environment with content
 To use this environment with content (such as Jupyter notebooks and/or data), 
-first make this content available via a separate repository.
+first make the notebooks, etc., available via a separate repository.
 
-Then construct a URL from the base environment repository URL and the content repository URL, as follows:
+Then construct a URL from this base environment repository URL and the content 
+repository URL, do as follows:
 
-`https://mybinder.org/v2/gh/datalad/datalad-binder/parameter-test?urlpath=git-pull?repo=<url-of-your-content-repo>`
+`https://mybinder.org/v2/gh/OPENDAP/jupyter-binder/main?urlpath=git-pull?repo=https://github.com/OPENDAP/NASA-tutorials`
 
-This URL, when opened, will use nbgitpuller to automatically pull in content from the specified repository 
+where `OPENDAP/jupyter-binder/main` says to use the `main` branch of this _environment_
+repository, and the `urlpath=git-pull?repo=` part of the URL says to run the conent at
+the URL given as the value of the keyword `repo`. This URL, when opened, will use the 
+_nbgitpuller_ program to automatically pull in content from the specified repository 
 into the base Binder environment.
 
 ## Configuration
