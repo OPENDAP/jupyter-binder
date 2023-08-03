@@ -7,14 +7,14 @@ dependencies:
   - python>=3.9
   #- urllib3=1.26.15
   #- jupyter #=1.0.0
-  - nbgitpuller=1.1.1
+#  - nbgitpuller=1.1.1
 #  - dask=2023.7.0
 #  - matplotlib=3.7.2
 #  - earthaccess=0.5.2
 #  - cartopy=0.21.1
 #  - pydap=3.4.0
 #  - pip=23.2
-  - pip:
+#  - pip:
     # Get these from pip until conda gets netCDF4 4.9.3++. jhrg 7/14/23
     #- netCDF4==1.6.4
     #- xarray==2023.7.0
