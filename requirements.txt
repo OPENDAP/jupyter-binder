@@ -1,0 +1,21 @@
+# Process this file with pip-compile to build a requirements.txt file
+# that can be used with 'pip install -r requirements.txt' in a virtual
+# environment or by binder.
+
+urllib3==1.26.16
+nbgitpuller=1.1.1
+
+netCDF4==1.6.4
+xarray==2023.7.0
+
+pydap==3.4.0
+dask==2023.7.0
+matplotlib==3.7.2
+earthaccess==0.5.2
+shapely==2.0.1
+Cartopy==0.22.0
+pydap==3.4.0
+
+# jupyterlab
+# jupyter #=1.0.0
+
