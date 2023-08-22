@@ -3,7 +3,7 @@
 ## Start the base environment
 
 To use this environment _as is_: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OPENDAP/jupyter-binder/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OPENDAP/jupyter-binder/main)
 
 ## Environment with content
 To use this environment with content (such as Jupyter notebooks and/or data), 
