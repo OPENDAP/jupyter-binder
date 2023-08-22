@@ -3,7 +3,7 @@
 # environment or by binder.
 
 urllib3==1.26.16
-nbgitpuller=1.1.1
+nbgitpuller==1.1.1
 
 netCDF4==1.6.4
 xarray==2023.7.0
