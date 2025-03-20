@@ -16,7 +16,7 @@ earthaccess==0.5.2
 shapely==2.0.1
 Cartopy==0.22.0
 # pydap==3.4.0
-pydap>-3.5.0
+pydap>=3.5.0
 
 # jupyterlab
 # jupyter #=1.0.0
