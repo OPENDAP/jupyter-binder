@@ -8,14 +8,15 @@ nbgitpuller==1.1.1
 netCDF4==1.6.4
 xarray==2023.7.0
 
-#pydap==3.4.0
+# pydap==3.4.0
 # dask==2023.7.0
 dask>2024.8.2
 matplotlib==3.7.2
 earthaccess==0.5.2
 shapely==2.0.1
 Cartopy==0.22.0
-pydap==3.4.0
+# pydap==3.4.0
+pydap>-3.5.0
 
 # jupyterlab
 # jupyter #=1.0.0
