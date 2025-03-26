@@ -1,5 +1,7 @@
 # A Binder Environment for the OPeNDAP Jupyter notebooks
 
+This has been archived because it si no longer used. jhrg 3/26/25
+
 ## Start the base environment
 
 To use this environment _as is_: 
